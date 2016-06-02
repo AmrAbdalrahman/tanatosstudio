@@ -1,0 +1,58 @@
+/*start medis query*/
+/*smart phone and tablet*/
+@media( max-width:767px) {
+ .subscribe .form-control{
+     width: 350px;
+        margin: 20px auto;
+    }
+.contact form input[type="text"],.contact form input[type="email"]{
+        margin-bottom: 15px;
+    }
+}
+
+    
+  /*small screen*/  
+@media( min-width:768px) and (max-width:991px) {
+  .our-work .item-box .over {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 96%;
+    height: 100%;
+    background-color: rgba(247,96,14,.9);
+    color: #fff;
+    border-radius: 1%;
+}
+.our-work .item-box .over h4{
+    margin-top: 150px;
+}
+}
+/*medium screen*/
+@media(min-width:992px) and (max-width:1199px){
+ .pp{
+        margin-top: -158px;
+    }
+.ppp .over {
+   
+    min-height: 190%;
+    margin-top: -158px;
+}
+.our-work .item-box .over {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 94%;
+    height: 96%;
+    background-color: rgba(247,96,14,.9);
+    color: #fff;
+    border-radius: 3%;
+}
+
+}
+
+/*large screen*/
+@media(min-width:1200px){
+}
+
+
+/*end medis query*/
